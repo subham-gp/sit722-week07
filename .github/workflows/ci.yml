@@ -165,3 +165,6 @@ jobs:
         run: |
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:latest
+
+
+#Testing the workflow
